@@ -1,7 +1,7 @@
 # 🎥 Anipy Server
 
 > **Watch and download anime ad-free** — powered by AnimePahe scrapper API with FastAPI backend.
-SITE LINK : https://anipy.fun
+<br>SITE LINK : https://anipy.fun
 ---
 
 ## 🚀 Overview
