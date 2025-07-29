@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/nfs-tech-bd/anipy-server/refs/heads/main/Screenshot%202025-07-29%20114255.png" height="600" width="800"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nfs-tech-bd/anipy-server/refs/heads/main/Screenshot%202025-07-29%20114255.png" height="600" width="800"></p><br><br>
 # 🎥 Anipy Server
 
 > **Watch and download anime ad-free** — powered by AnimePahe scrapper API with FastAPI backend.
