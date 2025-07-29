@@ -15,47 +15,19 @@ Anipy Server is a modern, lightweight, and high-performance server that lets you
 - 🔎 **Anime search endpoint** powered by AnimePahe scraping
 - 📂 Fetch anime episodes and direct download links
 - 🌐 Easy to deploy on VPS or cloud servers
-- 🛠️ Open-source and customizable backend
+- 🛠️ Open-source and customizable frontend
 
----
-
-## 📂 Project Structure
-```
-anipy-server/
-│── main.py           # FastAPI entry point
-│── app/
-│   ├── routes.py     # API routes
-│   ├── scraper.py    # AnimePahe scrapper module
-│── requirements.txt  # Dependencies
-│── README.md         # Project documentation
-│── LICENSE           # Open-source license
-```
 
 ---
 
 ## ⚙️ Installation
-### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/anipy-server.git
-cd anipy-server
+pip install anipy-server
 ```
-### 2️⃣ Setup Virtual Environment
-```bash
-python3 -m venv venv
-source venv/bin/activate   # Linux / macOS
-venv\Scripts\activate      # Windows
-```
-### 3️⃣ Install Requirements
-```bash
-pip install -r requirements.txt
-```
-### 4️⃣ Run Server
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
-```
+then you can run it just by entering "anipy"
 Server will start on:
 ```
-http://YOUR-SERVER-IP:8000
+http://YOUR-SERVER-IP:8000 or localhost:8000
 ```
 
 ---
@@ -70,19 +42,6 @@ http://YOUR-SERVER-IP:8000
 
 ---
 
-## 🌐 Deployment
-Use `screen` to keep the server running:
-```bash
-screen -S anipy
-uvicorn main:app --host 0.0.0.0 --port 8000
-```
-Detach session: **CTRL+A, D**  
-Reattach session:
-```bash
-screen -r anipy
-```
-
----
 
 ## 🛡️ License
 This project is licensed under the **MIT License** – free to use, modify, and distribute.
